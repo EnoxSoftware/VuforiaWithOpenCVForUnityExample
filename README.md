@@ -1,5 +1,9 @@
-Voforia With OpenCVForUnity Sample
+Voforia with OpenCV for Unity Sample
 ====================
+
+Demo Video
+-----
+[![](http://img.youtube.com/vi/TnF90ladrOo/0.jpg)](https://www.youtube.com/watch?v=TnF90ladrOo)
 
 Environment
 -----
@@ -21,7 +25,7 @@ Conversion from CameraImage(without augmentation) of "Voforia" to Mat of "OpenCV
 
 **[PostRenderToMatSample.cs](PostRenderToMatSample.cs)**  
 Conversion from PostRenderTexture(ARCamera) of "Voforia" to Mat of "OpenCV for Unity".  
-Attach "PostRenderToMatSample.cs" to "ARCamera".  
+Attach "PostRenderToMatSample.cs" to "ARCamera/Camera".  
 
 
 
