@@ -8,7 +8,10 @@ Demo Video
 Environment
 -----
 OSX Mavericks  
-Unity 5.0.0f4  
+Unity 5.0.0f4
+
+In Unity 4.6, It seems the black screen problem occurs while using the combination of Vuforia and OpenCVForUnity.
+I am investigating the cause.Unfortunately, please use the Unity5 at the moment.
 
 
 Setup
