@@ -79,19 +79,19 @@ public class PostRenderToMatSample : MonoBehaviour
 
 		if (mode == modeType.original) {
 			
-			Core.putText (cameraMat, "ORIGINAL MODE " + cameraTexture.width + "x" + cameraTexture.height, new Point (5, cameraTexture.height - 5), Core.FONT_HERSHEY_PLAIN, 1.0, new Scalar (255, 0, 0, 255));	
+			Imgproc.putText (cameraMat, "ORIGINAL MODE " + cameraTexture.width + "x" + cameraTexture.height, new Point (5, cameraTexture.height - 5), Imgproc.FONT_HERSHEY_PLAIN, 1.0, new Scalar (255, 0, 0, 255));	
 			
 		} else if (mode == modeType.sepia) {
 
 			Core.transform (cameraMat, cameraMat, mSepiaKernel);
 
-			Core.putText (cameraMat, "SEPIA MODE " + cameraTexture.width + "x" + cameraTexture.height, new Point (5, cameraTexture.height - 5), Core.FONT_HERSHEY_PLAIN, 1.0, new Scalar (255, 0, 0, 255));
+			Imgproc.putText (cameraMat, "SEPIA MODE " + cameraTexture.width + "x" + cameraTexture.height, new Point (5, cameraTexture.height - 5), Imgproc.FONT_HERSHEY_PLAIN, 1.0, new Scalar (255, 0, 0, 255));
 
 		} else if (mode == modeType.pixelize) {
 			Imgproc.resize (cameraMat, mIntermediateMat, mSize0, 0.2, 0.2, Imgproc.INTER_NEAREST);
 			Imgproc.resize (mIntermediateMat, cameraMat, cameraMat.size (), 0.0, 0.0, Imgproc.INTER_NEAREST);
 
-			Core.putText (cameraMat, "PIXELIZE MODE" + cameraTexture.width + "x" + cameraTexture.height, new Point (5, cameraTexture.height - 5), Core.FONT_HERSHEY_PLAIN, 1.0, new Scalar (255, 0, 0, 255));
+			Imgproc.putText (cameraMat, "PIXELIZE MODE" + cameraTexture.width + "x" + cameraTexture.height, new Point (5, cameraTexture.height - 5), Imgproc.FONT_HERSHEY_PLAIN, 1.0, new Scalar (255, 0, 0, 255));
 
 		}
 				

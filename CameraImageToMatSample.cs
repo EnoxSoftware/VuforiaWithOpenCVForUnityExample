@@ -50,7 +50,7 @@ public class CameraImageToMatSample : MonoBehaviour
 			
 			inputMat.put (0, 0, image.Pixels);
 
-			Core.putText (inputMat, "CameraImageToMatSample " + inputMat.cols () + "x" + inputMat.rows (), new Point (5, inputMat.rows () - 5), Core.FONT_HERSHEY_PLAIN, 1.0, new Scalar (255, 0, 0, 255));
+			Imgproc.putText (inputMat, "CameraImageToMatSample " + inputMat.cols () + "x" + inputMat.rows (), new Point (5, inputMat.rows () - 5), Imgproc.FONT_HERSHEY_PLAIN, 1.0, new Scalar (255, 0, 0, 255));
 			
 			
 			if (outputTexture == null) {
