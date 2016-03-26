@@ -23,7 +23,7 @@ public class CameraImageToMatSample : MonoBehaviour
 	
 	void Start ()
 	{
-		QCARBehaviour qcarBehaviour = (QCARBehaviour)FindObjectOfType (typeof(QCARBehaviour));
+		VuforiaBehaviour qcarBehaviour = (VuforiaBehaviour)FindObjectOfType (typeof(VuforiaBehaviour));
 		if (qcarBehaviour) {
 			qcarBehaviour.RegisterTrackablesUpdatedCallback (OnTrackablesUpdated);
 		}
