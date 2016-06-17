@@ -1,7 +1,7 @@
 Vuforia with OpenCV for Unity Sample
 ====================
 
-Demo Video
+Demo Video 
 -----
 [![](http://img.youtube.com/vi/TnF90ladrOo/2.jpg)](https://www.youtube.com/watch?v=TnF90ladrOo)
 
