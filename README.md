@@ -1,4 +1,4 @@
-Voforia with OpenCV for Unity Sample
+Vuforia with OpenCV for Unity Sample
 ====================
 
 Demo Video
@@ -24,10 +24,10 @@ Setup
 Samples
 -----
 **[CameraImageToMatSample.cs](CameraImageToMatSample.cs)**  
-Conversion from CameraImage(without augmentation) of "Voforia" to Mat of "OpenCV for Unity".  
+Conversion from CameraImage(without augmentation) of "Vuforia" to Mat of "OpenCV for Unity".  
 
 **[PostRenderToMatSample.cs](PostRenderToMatSample.cs)**  
-Conversion from PostRenderTexture(ARCamera) of "Voforia" to Mat of "OpenCV for Unity".  
+Conversion from PostRenderTexture(ARCamera) of "Vuforia" to Mat of "OpenCV for Unity".  
 Attach "PostRenderToMatSample.cs" to "ARCamera/Camera".  
 
 
