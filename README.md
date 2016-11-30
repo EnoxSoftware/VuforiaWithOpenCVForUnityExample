@@ -40,5 +40,7 @@ Attach "PostRenderToMatSample.cs" to "ARCamera/Camera".
 ![Light_Frame.png](Light_Frame.png)
 
 
-
+Android Build
+-----
+[VuforiaWithOpenCVForUnitySample.apk](VuforiaWithOpenCVForUnitySample.apk)
 
