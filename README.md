@@ -1,4 +1,4 @@
-Vuforia with OpenCV for Unity Sample
+Vuforia with OpenCV for Unity Example
 ====================
 
 Demo Video
@@ -8,10 +8,10 @@ Demo Video
 Environment
 -----
 Windows 8.1  
-Unity 5.4.0f3  
-vuforia-unity-6-0-114.unitypackage  
+Unity 5.5.1f1  
+vuforia-unity-6-2-6.unitypackage  
 SD_UnityChan-1.unitypackage  
-OpenCV for Unity 2.0.6
+OpenCV for Unity 2.1.3
 
 In Unity 4.6, It seems the black screen problem occurs while using the combination of Vuforia and OpenCVForUnity.
 I am investigating the cause.Unfortunately, please use the Unity5 at the moment.
@@ -19,28 +19,24 @@ I am investigating the cause.Unfortunately, please use the Unity5 at the moment.
 
 Setup
 -----
-* Import vuforia-unity-6-0-114.unitypackage
+* Import vuforia-unity-6-2-6.unitypackage
 * Import SD_UnityChan-1.unitypackage
-* Setup Vuforia + UnityChan Tutorial(<http://taka-say.hateblo.jp/entry/2015/02/28/161103>(Japanese))
-* Import OpenCVForUnity2.0.6 from AssetStore
-* Import VuforiaWithOpenCVForUnitySample.unitypackage
+* Setup Vuforia ([How To Setup a Simple Unity Project](https://library.vuforia.com/articles/Solution/Compiling-a-Simple-Unity-Project))
+* Import OpenCVForUnity2.1.3 from AssetStore
+* Import VuforiaWithOpenCVForUnityExample.unitypackage
 
 ![screenshot.png](screenshot.png) 
 
-Samples
+Examples
 -----
-**[CameraImageToMatSample.cs](CameraImageToMatSample.cs)**  
+**[CameraImageToMatExample.cs](/Assets/VuforiaWithOpenCVForUnityExample/CameraImageToMatExample.cs)**  
 Conversion from CameraImage(without augmentation) of "Vuforia" to Mat of "OpenCV for Unity".  
 
-**[PostRenderToMatSample.cs](PostRenderToMatSample.cs)**  
+**[PostRenderToMatExample.cs](/Assets/VuforiaWithOpenCVForUnityExample/PostRenderToMatExample.cs)**  
 Conversion from PostRenderTexture(ARCamera) of "Vuforia" to Mat of "OpenCV for Unity".  
-Attach "PostRenderToMatSample.cs" to "ARCamera/Camera".  
+Attach "PostRenderToMatExample.cs" to "ARCamera/Camera".  
 
 
 ![Light_Frame.png](Light_Frame.png)
 
-
-Android Build
------
-[VuforiaWithOpenCVForUnitySample.apk](VuforiaWithOpenCVForUnitySample.apk)
 
