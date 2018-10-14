@@ -11,7 +11,7 @@ Windows 8.1
 Unity 5.5.1f1  
 vuforia-unity-6-2-6.unitypackage  
 SD_UnityChan-1.unitypackage  
-OpenCV for Unity 2.1.3
+[OpenCV for Unity](https://assetstore.unity.com/packages/tools/integration/opencv-for-unity-21088?aid=1011l4ehR) 2.1.3
 
 In Unity 4.6, It seems the black screen problem occurs while using the combination of Vuforia and OpenCVForUnity.
 I am investigating the cause.Unfortunately, please use the Unity5 at the moment.
