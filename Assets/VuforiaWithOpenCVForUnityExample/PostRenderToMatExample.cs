@@ -3,6 +3,9 @@ using System.Collections;
 
 using OpenCVForUnity;
 
+/// <summary>
+/// Post render to mat example.
+/// </summary>
 public class PostRenderToMatExample : MonoBehaviour
 {
 	
