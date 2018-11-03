@@ -21,11 +21,11 @@ Examples
 -----
 **[CameraImageToMatExample.cs](/Assets/VuforiaWithOpenCVForUnityExample/CameraImageToMatExample.cs)**  
 Conversion from CameraImage(without augmentation) of "Vuforia" to Mat of "OpenCV for Unity".  
-![screenshot1.png](screenshot1.png) 
+![screenshot1.PNG](screenshot1.PNG) 
 
 **[PostRenderToMatExample.cs](/Assets/VuforiaWithOpenCVForUnityExample/PostRenderToMatExample.cs)**  
 Conversion from PostRenderTexture(ARCamera) of "Vuforia" to Mat of "OpenCV for Unity".  
-![screenshot2.png](screenshot2.png) 
+![screenshot2.PNG](screenshot2.PNG) 
 
 
 ![Light_Frame.png](Light_Frame.png)
