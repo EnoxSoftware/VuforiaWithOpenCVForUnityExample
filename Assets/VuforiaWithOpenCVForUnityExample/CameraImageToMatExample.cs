@@ -2,7 +2,9 @@
 using System.Collections;
 
 using Vuforia;
-using OpenCVForUnity;
+using OpenCVForUnity.CoreModule;
+using OpenCVForUnity.ImgprocModule;
+using OpenCVForUnity.UnityUtils;
 
 /// <summary>
 /// Camera image to mat sample.
@@ -37,7 +39,7 @@ public class CameraImageToMatExample : MonoBehaviour
         VuforiaARController.Instance.RegisterOnPauseCallback (OnPause);
 
     }
-        
+
     void OnVuforiaStarted ()
     {
 
@@ -98,7 +100,7 @@ public class CameraImageToMatExample : MonoBehaviour
                     
                     inputMat.put (0, 0, image.Pixels);
                     
-                    Imgproc.putText (inputMat, "CameraImageToMatSample " + inputMat.cols () + "x" + inputMat.rows (), new Point (5, inputMat.rows () - 5), Core.FONT_HERSHEY_PLAIN, 1.0, new Scalar (255, 0, 0, 255));
+                    Imgproc.putText (inputMat, "CameraImageToMatSample " + inputMat.cols () + "x" + inputMat.rows (), new Point (5, inputMat.rows () - 5), Imgproc.FONT_HERSHEY_PLAIN, 1.0, new Scalar (255, 0, 0, 255));
                     
                     
                     if (outputTexture == null) {

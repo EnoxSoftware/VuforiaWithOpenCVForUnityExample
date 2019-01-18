@@ -9,12 +9,12 @@ Environment
 -----
 Windows 10  
 Unity 2017.4.14f1  
-[OpenCV for Unity](https://assetstore.unity.com/packages/tools/integration/opencv-for-unity-21088?aid=1011l4ehR) 2.3.2
+[OpenCV for Unity](https://assetstore.unity.com/packages/tools/integration/opencv-for-unity-21088?aid=1011l4ehR) 2.3.3
 
 Setup
 -----
 * Setup Vuforia ([Getting Started with Vuforia Engine in Unity](https://library.vuforia.com/articles/Training/getting-started-with-vuforia-in-unity.html))
-* Import OpenCVForUnity2.3.2 from AssetStore
+* Import OpenCVForUnity2.3.3 from AssetStore
 * Import VuforiaWithOpenCVForUnityExample.unitypackage
 
 Examples
