@@ -13,7 +13,7 @@ using OpenCVForUnity.UnityUtils;
 public class CameraImageToMatExample : MonoBehaviour
 {
 
-    private Image.PIXEL_FORMAT mPixelFormat = Image.PIXEL_FORMAT.UNKNOWN_FORMAT;
+    private PIXEL_FORMAT mPixelFormat = PIXEL_FORMAT.UNKNOWN_FORMAT;
 
     private bool mAccessCameraImage = true;
     private bool mFormatRegistered = false;
@@ -28,7 +28,7 @@ public class CameraImageToMatExample : MonoBehaviour
     {
 
         #if UNITY_EDITOR
-        mPixelFormat = Image.PIXEL_FORMAT.GRAYSCALE; // Need Grayscale for Editor
+        mPixelFormat = PIXEL_FORMAT.GRAYSCALE; // Need Grayscale for Editor
         #else
         mPixelFormat = Image.PIXEL_FORMAT.RGB888; // Use RGB888 for mobile
         #endif
@@ -89,9 +89,9 @@ public class CameraImageToMatExample : MonoBehaviour
 //                    }
 
                     if (inputMat == null) {
-                        if (mPixelFormat == Image.PIXEL_FORMAT.GRAYSCALE) {
+                        if (mPixelFormat == PIXEL_FORMAT.GRAYSCALE) {
                             inputMat = new Mat (image.Height, image.Width, CvType.CV_8UC1);
-                        } else if (mPixelFormat == Image.PIXEL_FORMAT.RGB888) {
+                        } else if (mPixelFormat == PIXEL_FORMAT.RGB888) {
                             inputMat = new Mat (image.Height, image.Width, CvType.CV_8UC3);
                         }
                         //Debug.Log ("inputMat dst ToString " + inputMat.ToString ());
